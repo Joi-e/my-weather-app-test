@@ -5,6 +5,10 @@ This documentation covers the implementation of two new features for the existin
 1. Comparing daylight hours between two cities
 2. Checking rain conditions across two locations
 
+Following Spring best practices and the principle of separation of concerns, the core business logic has been implemented in the service layer (WeatherService). 
+
+The WeatherController acts as an API gateway, managing HTTP requests/responses through endpoints.
+
 ## Technologies Used
 
 - Java 17
